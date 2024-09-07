@@ -17,5 +17,5 @@ spec:
       containers:
         - name: weather-con
           image: charanreddy12/weather-app
-          port:
+          ports:
               - containerPort: 8080
