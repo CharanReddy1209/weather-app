@@ -9,13 +9,13 @@ spec:
   selector:
     matchLabels:
       app: weather
-    template:
-      metadata:
-        labels:
-          app: weather
-      spec:
-        containers:
-          - name: weather-con
-            image: charanreddy12/weather-app
-            port:
+  template:
+    metadata:
+      labels:
+        app: weather
+    spec:
+      containers:
+        - name: weather-con
+          image: charanreddy12/weather-app
+          port:
               - containerPort: 8080
